@@ -9,3 +9,5 @@ Simply run the `script-writer.sh` with your old username and new username as arg
 ./script-writer.sh foo bar
 ./update-configs.sh
 ```
+
+It's pretty normal to get a couple permission errors because the script attempts to search under your whole home directory for any git config files and should run into some directories it doesn't have read permissions for. Don't worry about that and do **not** run as sudo.
